@@ -9,7 +9,7 @@ import {GrContact} from "react-icons/gr"
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><AiFillHome /></a>
+      <a href="#" className="active"><AiFillHome /></a>
       <a href="#about"><FcAbout /></a>
       <a href="#projects"><GrProjects /></a>
       <a href="#testimonials"><BsPeopleFill /></a>
