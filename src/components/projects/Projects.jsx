@@ -10,8 +10,8 @@ const Projects = () => {
       <div class="container projects__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="project__items">
-              <div classname="project_item-image">
+            <article key={id} className="project__item">
+              <div classname="project__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
