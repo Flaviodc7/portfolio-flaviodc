@@ -7,7 +7,7 @@ const Projects = () => {
     <section id="projects">
       <h3>Mi trabajo reciente</h3>
       <h2>Proyectos</h2>
-      <div class="container projects__container">
+      <div className="container projects__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="project__item">
