@@ -5,13 +5,13 @@ import { data } from "./project-list";
 const Projects = () => {
   return (
     <section id="projects">
-      <h5>Mi trabajo reciente</h5>
+      <h3>Mi trabajo reciente</h3>
       <h2>Proyectos</h2>
       <div class="container projects__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="project__item">
-              <div classname="project__item-image">
+              <div className="project__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>

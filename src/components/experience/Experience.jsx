@@ -5,7 +5,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Estos son mis skills</h5>
+      <h3>Estos son mis skills</h3>
       <h2>Mi experiencia</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
