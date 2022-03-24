@@ -26,3 +26,20 @@
     width: 80%;
     margin: 0.8rem auto 0;
 }
+
+/* MEDIA QUERIES (DISPOSITIVOS MEDIANOS) */
+@media screen and (max-width: 1024px) {
+    .container .testimonial__container {
+        width: 60%;
+    }
+}
+
+/* MEDIA QUERIES (DISPOSITIVOS PEQUEÑOS) */
+@media screen and (max-width: 600px) {
+    .container .testimonial__container {
+        width: var(--container-width-sm)
+    }
+    .client__review {
+        width: var(--container-width-sm);
+    }
+}
