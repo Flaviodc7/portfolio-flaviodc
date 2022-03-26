@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './contact.css';
 import { MdEmail } from 'react-icons/md'
 import { RiWhatsappFill } from 'react-icons/ri'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('gmailMessage', 'templatemail', form.current, 'user_OB1ipGahIdImLamqOgLLO')
+      .then((result) => {
+          alert("Mensaje enviado");
+      }, (error) => {
+          alert("Hubo un error al enviar el mensaje");
+      });
+    e.target.reset();
+  };
   return (
     <section id="contact">
       <h3>Ponte en contacto</h3>
@@ -23,7 +37,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=+541122544765" target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Tu nombre completo" required />
           <input type="email" name="email" placeholder="Tu Mail" required />
           <textarea name="message" rows="7" placeholder="Ingrese su mensaje" required></textarea>
