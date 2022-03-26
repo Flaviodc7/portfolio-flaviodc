@@ -11,13 +11,13 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdEmail />
+            <MdEmail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>flaviodc@live.com.ar</h5>
             <a href="mailto:flaviodc@live.com.ar" target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
           </article>
           <article className="contact__option">
-            <RiWhatsappFill />
+            <RiWhatsappFill className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+54 11-2254-4765</h5>
             <a href="https://api.whatsapp.com/send?phone=+541122544765" target="_blank" rel="noopener noreferrer">Enviar un mensaje</a>
