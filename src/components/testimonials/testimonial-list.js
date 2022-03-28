@@ -1,4 +1,4 @@
-import AVTR1 from '../../assets/avatar1.jpg'
+import AVTR1 from '../../assets/avatar/avatar1.jpg'
 
 export const data = [
     {

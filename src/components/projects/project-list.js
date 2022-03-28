@@ -1,4 +1,4 @@
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/projects/portfolio1.jpg";
 
 export const data = [
     {
