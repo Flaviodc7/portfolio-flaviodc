@@ -1,7 +1,6 @@
 import React from "react";
 import "./experience.css";
 import { data } from "./experience-list";
-import { BsFillCheckCircleFill } from "react-icons/bs";
 
 
 const Experience = () => {
@@ -16,7 +15,7 @@ const Experience = () => {
             {data.map(({ id, image, title, experience}) => {
           return (
             <article key={id} className="experience__details">
-              <BsFillCheckCircleFill className="experience__details-icon"/>
+              <img src={image} className="experience__details-icon"/>
               <div>
                 <h4>{title}</h4>
                 <small className="text-light">{experience}</small>

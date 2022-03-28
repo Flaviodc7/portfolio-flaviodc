@@ -1,51 +1,60 @@
-import { BsFillCheckCircleFill } from "react-icons/bs";
+import HTML from '../../assets/skills/html5.svg'
+import CSS3 from '../../assets/skills/css3.svg'
+import JavaScript from '../../assets/skills/javascript.svg'
+import TypeScript from '../../assets/skills/typescript.svg'
+import React from '../../assets/skills/react.svg'
+import Tailwind from '../../assets/skills/tailwindcss.svg'
+import GitHub from '../../assets/skills/github.svg'
+import GIT from '../../assets/skills/git.svg'
+
+
 
 export const data = [
     {
         id: 1,
-        image: BsFillCheckCircleFill,
+        image: HTML,
         title: "HTML5",
         experience: "Experimentado",
     },
     {
         id: 2,
-        image: BsFillCheckCircleFill,
+        image: CSS3,
         title: "CSS3",
         experience: "Experimentado",
     },
     {
         id: 3,
-        image: BsFillCheckCircleFill,
+        image: JavaScript,
         title: "JavaScript",
         experience: "Experimentado",
     },
     {
         id: 4,
-        image: BsFillCheckCircleFill,
+        image: TypeScript,
+        title: "TypeScript",
+        experience: "Novato",
+    },
+    {
+        id: 5,
+        image: React,
         title: "ReactJS",
         experience: "Experimentado",
     },
     {
-        id: 5,
-        image: BsFillCheckCircleFill,
-        title: "BootStrap",
-        experience: "Experimentado",
-    },
-    {
         id: 6,
-        image: BsFillCheckCircleFill,
+        image: Tailwind,
         title: "Tailwind",
         experience: "Experimentado",
     },
     {
         id: 7,
-        image: BsFillCheckCircleFill,
+        image: GitHub,
         title: "GitHub",
         experience: "Experimentado",
     },
     {
         id: 8,
-        image: BsFillCheckCircleFill,
+        image: GIT,
         title: "GIT",
         experience: "Experimentado",
     },
