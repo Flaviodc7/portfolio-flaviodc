@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import { data } from "./project-list";
 
+
 const Projects = () => {
   return (
     <section id="projects">
