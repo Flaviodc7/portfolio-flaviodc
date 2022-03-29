@@ -12,10 +12,10 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Herramientas que utilizo</h3>
           <div className="experience__content">
-            {data.map(({ id, image, title, experience}) => {
+            {data.map(({ id, image, title, experience, alt}) => {
           return (
             <article key={id} className="experience__details">
-              <img src={image} className="experience__details-icon"/>
+              <img src={image} className="experience__details-icon" alt={alt}/>
               <div>
                 <h4>{title}</h4>
                 <small className="text-light">{experience}</small>
