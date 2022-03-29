@@ -1,6 +1,6 @@
 header {
-  height: 126vh;
-  padding-top: 7rem;
+  height: 116vh;
+  padding-top: 3rem;
   overflow: hidden;
 }
 .header__container {
@@ -24,8 +24,8 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
-  bottom: 3rem;
+  left: 3rem;
+  bottom: 10rem;
 }
 
 .header__socials::after {
@@ -51,8 +51,8 @@ header {
 /* IR HACIA ABAJO (SCROLL) */
 .scroll__down {
   position: absolute;
-  right: -2.3rem;
-  bottom: 5rem;
+  right: 0.7rem;
+  bottom: 12rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -61,14 +61,14 @@ header {
 /* MEDIA QUERIES (DISPOSITIVOS MEDIANOS) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 126vh;
+    height: 116vh;
   }
 }
 
 /* MEDIA QUERIES (DISPOSITIVOS PEQUEÑOS) */
 @media screen and (max-width: 600px) {
   header {
-    height: 126vh;
+    height: 116vh;
   }
   .header__socials,
   .scroll__down {
