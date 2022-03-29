@@ -38,7 +38,7 @@ export const data = [
         id: 5,
         image: React,
         title: "ReactJS",
-        experience: "Experimentado",
+        experience: "Intermedio",
     },
     {
         id: 6,
