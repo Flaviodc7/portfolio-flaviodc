@@ -64,6 +64,6 @@ export const data = [
         image: GIT,
         title: "GIT",
         experience: "Experimentado",
-        alt: "Logo de GIT",
+        altText: "Logo de GIT",
     },
 ]
