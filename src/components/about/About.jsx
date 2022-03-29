@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import me2about from "../../assets/photos/me2-about.jpg";
+import me2about from "../../assets/photos/me2-about.webp";
 import { RiAwardFill } from "react-icons/ri";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderActive } from "react-icons/vsc";
