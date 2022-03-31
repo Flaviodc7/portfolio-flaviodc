@@ -1,5 +1,5 @@
 header {
-  height: 122vh;
+  height: 116vh;
   padding-top: 3rem;
   overflow: hidden;
 }
@@ -61,14 +61,14 @@ header {
 /* MEDIA QUERIES (DISPOSITIVOS MEDIANOS) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 122vh;
+    height: 116vh;
   }
 }
 
 /* MEDIA QUERIES (DISPOSITIVOS PEQUEÑOS) */
 @media screen and (max-width: 600px) {
   header {
-    height: 122vh;
+    height: 116vh;
   }
   .header__socials,
   .scroll__down {
