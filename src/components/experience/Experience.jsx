@@ -10,7 +10,7 @@ const Experience = () => {
       <h2>Mi experiencia</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Herramientas que utilizo</h3>
+          <h3>Tecnologías que utilizo</h3>
           <div className="experience__content">
             {data.map(({ id, image, title, experience, altText}) => {
           return (
