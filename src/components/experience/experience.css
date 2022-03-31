@@ -56,6 +56,8 @@
   }
   .experience__content {
     padding: 1rem;
+    grid-template-columns: 200px 150px;
+    justify-content: center;
   }
 }
 
@@ -68,5 +70,8 @@
   .experience__container > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+  .experience__content {
+    grid-template-columns: 150px 130px;
   }
 }
