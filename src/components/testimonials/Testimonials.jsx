@@ -25,12 +25,12 @@ const Testimonials = () => {
             pagination={{ clickable: true }}>
         {
         data.map(
-          ({ avatar, name, review },
+          ({ testimonialPhoto, alt, name, review },
           index) => {
             return (
             <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
-                <img src={avatar} alt="Avatar 1" />
+                <img src={testimonialPhoto} alt={alt} />
               </div>
               <h3 className="client__name">{name}</h3>
               <small className="client__review">{review}</small>
