@@ -25,6 +25,7 @@
 
 .experience__content {
   display: grid;
+  justify-content: space-around;
   grid-template-columns: 250px 150px;
   row-gap: 2rem;
 }
@@ -57,7 +58,7 @@
   .experience__content {
     padding: 1rem;
     grid-template-columns: 200px 150px;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
