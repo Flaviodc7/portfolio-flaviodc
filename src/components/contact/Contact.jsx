@@ -69,7 +69,7 @@ const Contact = () => {
           <textarea
             name="message"
             rows="7"
-            placeholder="Ingrese su mensaje"
+            placeholder="Ingresa tu mensaje"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
