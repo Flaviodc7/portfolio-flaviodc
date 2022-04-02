@@ -9,13 +9,14 @@ const Projects = () => {
       <h3>Mi trabajo reciente</h3>
       <h2>Proyectos</h2>
       <div className="container projects__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, description, github, demo }) => {
           return (
             <article key={id} className="project__item">
               <div className="project__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <h5>{description}</h5>
               <div className="project__item-cta">
                 <a
                   href={github}
