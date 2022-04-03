@@ -1,7 +1,8 @@
-import {BsLinkedin} from 'react-icons/bs'
-import {FaGithub} from 'react-icons/fa'
-import {SiCodewars} from 'react-icons/si'
-import {SiTelegram} from 'react-icons/si'
+import {BsLinkedin} from 'react-icons/bs';
+import {FaGithub} from 'react-icons/fa';
+import {SiCodewars} from 'react-icons/si';
+import { RiWhatsappFill } from "react-icons/ri";
+import {SiTelegram} from 'react-icons/si';
 
 export const data = [
     {
@@ -21,6 +22,11 @@ export const data = [
     },
     {
         id: 4,
+        link: "https://api.whatsapp.com/send?phone=+541122544765",
+        icon: <RiWhatsappFill />,
+    },
+    {
+        id: 5,
         link: "https://t.me/Flaviodc7",
         icon: <SiTelegram />,
     }
