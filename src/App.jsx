@@ -6,6 +6,7 @@ import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
+import Scrollup from './components/scrollUp/Scrollup'
 import Footer from './components/footer/Footer'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Projects />
       <Testimonials />
       <Contact />
+      <Scrollup />
       <Footer />
     </>
   )

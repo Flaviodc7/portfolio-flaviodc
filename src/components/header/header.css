@@ -17,6 +17,7 @@ header {
   gap: 1.2rem;
   justify-content: center;
 }
+
 /* HEADER SOCIALS */
 .header__socials {
   display: flex;
@@ -49,16 +50,6 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* IR HACIA ABAJO (SCROLL) */
-.scroll__down {
-  position: absolute;
-  right: 0.7rem;
-  bottom: 12rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
-}
-
 /* MEDIA QUERIES (DISPOSITIVOS MEDIANOS) */
 @media screen and (max-width: 1024px) {
   header {
@@ -71,8 +62,7 @@ header {
   header {
     height: 680px;
   }
-  .header__socials,
-  .scroll__down {
+  .header__socials {
     display: none;
   }
 }

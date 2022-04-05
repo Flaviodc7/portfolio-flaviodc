@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './nav.css'
 import {AiFillHome} from "react-icons/ai"
 import {RiAwardFill} from "react-icons/ri"

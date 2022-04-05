@@ -1,0 +1,12 @@
+.scrollUp {
+    position: fixed;
+    z-index: 99;
+    bottom: 120px;
+    right: 40px;
+    transform: rotate(90deg);
+}
+
+.scrollUp__button {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
