@@ -34,7 +34,19 @@ const Scrollup = () => {
         className="scrollUp__button"
         onClick={handleClick}
       >
-       Ir hacia arriba
+        <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          viewBox="0 0 24 24"
+          className="h-10 w-10"
+        >
+          <path
+            fill="currentColor"
+            d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z"
+          />
+        </svg>
+        </span>
       </a>
     </div>
   );
