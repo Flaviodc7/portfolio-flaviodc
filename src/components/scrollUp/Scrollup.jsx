@@ -1,40 +1,31 @@
 import React, { useEffect, useState } from "react";
-import "./scrollup.css"
+import "./scrollup.css";
 
 const Scrollup = () => {
-  const [visible, setVisible] = useState(false);
+  const [showScroll, setShowScroll] = useState(false);
 
-  const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
-      setVisible(true);
-    } else {
-      setVisible(false);
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 400) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= 400) {
+      setShowScroll(false);
     }
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
-    };
-  }, []);
-
-  function handleClick(e) {
-    e.preventDefault();
-    window.scroll({ top: 0, left: 0, behavior: "smooth" });
-  }
+  window.addEventListener("scroll", checkScrollTop);
 
   return (
     <div className="scrollUp">
       <a
-        id="backToTop"
         href="#"
-        data-disable="true"
         className="scrollUp__button"
-        onClick={handleClick}
-      >
-      </a>
+        onClick={scrollTop}
+        style={{display: showScroll ? 'inline-block' : 'none'}}
+      ></a>
     </div>
   );
 };

@@ -7,8 +7,7 @@
 }
 
 .scrollUp__button {
-  display: inline-block;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-variant);
   width: 50px;
   height: 50px;
   text-align: center;
@@ -20,6 +19,10 @@
   z-index: 1000;
 }
 
+.scrollUp__button:hover {
+  background-color: var(--color-primary);
+}
+
 .scrollUp__button::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -27,10 +30,5 @@
   font-style: normal;
   font-size: 2em;
   line-height: 50px;
-  color: #fff;
-}
-
-.scrollUp__button.show {
-  opacity: 1;
-  visibility: visible;
+  color: var(--color-white);
 }
