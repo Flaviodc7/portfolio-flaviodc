@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./nav.css";
 import { AiFillHome } from "react-icons/ai";
 import { RiAwardFill } from "react-icons/ri";
@@ -30,7 +30,6 @@ const Nav = () => {
       setActiveNav("#contact");
     }
   };
-
   window.addEventListener("scroll", checkScroll);
 
   return (
@@ -39,6 +38,7 @@ const Nav = () => {
         href="#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
+        title="Inicio"
       >
         <AiFillHome />
       </a>
@@ -46,6 +46,7 @@ const Nav = () => {
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
+        title="Acerca de mi"
       >
         <AiOutlineUser />
       </a>
@@ -53,6 +54,7 @@ const Nav = () => {
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
+        title="Mi experiencia"
       >
         <RiAwardFill />
       </a>
@@ -60,6 +62,7 @@ const Nav = () => {
         href="#projects"
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
+        title="Mis proyectos"
       >
         <BiBookAlt />
       </a>
@@ -67,6 +70,7 @@ const Nav = () => {
         href="#testimonials"
         onClick={() => setActiveNav("#testimonials")}
         className={activeNav === "#testimonials" ? "active" : ""}
+        title="Testimonios"
       >
         <BsPeopleFill />
       </a>
@@ -74,6 +78,7 @@ const Nav = () => {
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
+        title="Contactame"
       >
         <FiMessageCircle />
       </a>

@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <h3>Mi trabajo reciente</h3>
-      <h2>Proyectos</h2>
+      <h2>Mis proyectos</h2>
       <div className="container projects__container">
         {data.map(({ id, image, title, description, github, demo }) => {
           return (
