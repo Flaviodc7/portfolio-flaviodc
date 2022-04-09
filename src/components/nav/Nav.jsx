@@ -36,7 +36,6 @@ const Nav = () => {
     <nav>
       <a
         href="#"
-        onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
         title="Inicio"
       >
@@ -44,7 +43,6 @@ const Nav = () => {
       </a>
       <a
         href="#about"
-        onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
         title="Acerca de mi"
       >
@@ -52,7 +50,6 @@ const Nav = () => {
       </a>
       <a
         href="#experience"
-        onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
         title="Mi experiencia"
       >
@@ -60,7 +57,6 @@ const Nav = () => {
       </a>
       <a
         href="#projects"
-        onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
         title="Mis proyectos"
       >
@@ -68,7 +64,6 @@ const Nav = () => {
       </a>
       <a
         href="#testimonials"
-        onClick={() => setActiveNav("#testimonials")}
         className={activeNav === "#testimonials" ? "active" : ""}
         title="Testimonios"
       >
@@ -76,7 +71,6 @@ const Nav = () => {
       </a>
       <a
         href="#contact"
-        onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
         title="Contactame"
       >

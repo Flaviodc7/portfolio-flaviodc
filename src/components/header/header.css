@@ -1,12 +1,17 @@
 header {
-  height: 680px;
-  padding-top: 3rem;
+  height: 480px;
+  padding-top: 4rem;
   overflow: hidden;
 }
 .header__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__text {
+  margin-top: 70px;
+  margin-left: 50px;
   text-align: center;
-  height: 100%;
-  position: relative;
 }
 
 /* CTA */
@@ -41,18 +46,17 @@ header {
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-right: 10px;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 5rem 1.5rem 0.5rem 1.5rem;
 }
 
 /* MEDIA QUERIES (DISPOSITIVOS MEDIANOS) */
 @media screen and (max-width: 1024px) {
   header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 680px;
   }
 }
