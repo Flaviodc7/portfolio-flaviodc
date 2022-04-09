@@ -74,9 +74,9 @@ header {
 }
 
 /* MEDIA QUERIES (DISPOSITIVOS PEQUEÑOS) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   header {
-    height: 680px;
+    height: 750px;
   }
   .header__socials {
     display: none;
