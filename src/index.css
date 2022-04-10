@@ -85,6 +85,7 @@ a:hover {
 }
 
 .btn {
+  background-color: var(--color-bg);
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
