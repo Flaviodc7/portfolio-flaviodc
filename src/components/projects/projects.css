@@ -5,16 +5,17 @@
 }
 
 .project__item {
-  background: var(--color-bg-variant);
+  background: var(--color-bg);
   padding: 1.2rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+  border-color: var(--color-primary-variant);
   transition: var(--transition);
 }
 
 .project__item:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
+  border-color: var(--color-bg-variant);
+  background: var(--color-bg-variant);
 }
 
 .project__item-image {

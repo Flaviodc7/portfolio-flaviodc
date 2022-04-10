@@ -12,17 +12,18 @@
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
+    border-color: var(--color-primary-variant);
     transition: var(--transition);
 }
 
 .contact__option:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    background: var(--color-bg-variant);
+    border-color: var(--color-bg-variant);
 }
 
 .contact__option-icon {
