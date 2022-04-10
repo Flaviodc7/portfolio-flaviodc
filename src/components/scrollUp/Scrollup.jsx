@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./scrollup.css";
+import upButton from "../../assets/up-button.svg"
 
 const Scrollup = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -25,7 +26,9 @@ const Scrollup = () => {
         className="scrollUp__button"
         onClick={scrollTop}
         style={{display: showScroll ? 'inline-block' : 'none'}}
-      ></a>
+      >
+        <img className="scrollUp__up" src={upButton}/>
+      </a>
     </div>
   );
 };

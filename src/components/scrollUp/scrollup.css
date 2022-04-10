@@ -9,7 +9,6 @@
   background-color: var(--color-primary-variant);
   width: 50px;
   height: 50px;
-  text-align: center;
   border-radius: 30px;
   position: fixed;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
@@ -20,14 +19,10 @@
   background-color: var(--color-primary);
 }
 
-.scrollUp__button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: var(--color-white);
+.scrollUp__up {
+  width: 70%;
+  margin: 5px auto;
+  display: block;
 }
 
 /* MEDIA QUERIES (DISPOSITIVOS PEQUEÑOS) */
