@@ -20,11 +20,11 @@ const Nav = () => {
     } else if (!scroll && window.pageYOffset > 680) {
       setScroll(true);
       setActiveNav("#about");
-    } else if ((window.pageYOffset > 1663) && (window.pageYOffset < 2257)) {
+    } else if (window.pageYOffset > 1663 && window.pageYOffset < 2257) {
       setActiveNav("#experience");
-    } else if ((window.pageYOffset > 2258) && (window.pageYOffset < 3132)) {
+    } else if (window.pageYOffset > 2258 && window.pageYOffset < 3132) {
       setActiveNav("#projects");
-    } else if ((window.pageYOffset > 3133) && (window.pageYOffset < 3509)) {
+    } else if (window.pageYOffset > 3133 && window.pageYOffset < 3509) {
       setActiveNav("#testimonials");
     } else if (window.pageYOffset > 3510) {
       setActiveNav("#contact");
@@ -34,11 +34,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a
-        href="#"
-        className={activeNav === "#" ? "active" : ""}
-        title="Inicio"
-      >
+      <a href="#" className={activeNav === "#" ? "active" : ""} title="Inicio">
         <AiFillHome />
       </a>
       <a

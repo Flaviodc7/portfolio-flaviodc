@@ -32,7 +32,6 @@ header {
   position: absolute;
   left: 3rem;
   bottom: 10rem;
-  
 }
 
 .header__socials::after {
@@ -64,7 +63,7 @@ header {
     align-items: center;
   }
 
-  .me{
+  .me {
     margin-top: 2rem;
   }
 

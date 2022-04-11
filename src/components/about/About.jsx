@@ -35,12 +35,14 @@ const About = () => {
             </article>
           </div>
           <p>
-            Soy un programador web dedicado y motivado en brindar
-            soluciones, aplicando lógica y buscando métodos resolutivos acordes.
-            Me gustan los desafíos, ya que implican un constante aprendizaje,
-            sea con un cambio de paradigma o una nueva tecnología
+            Soy un programador web dedicado y motivado en brindar soluciones,
+            aplicando lógica y buscando métodos resolutivos acordes. Me gustan
+            los desafíos, ya que implican un constante aprendizaje, sea con un
+            cambio de paradigma o una nueva tecnología
           </p>
-          <a href="#contact" className="btn btn-primary">Contactame</a>
+          <a href="#contact" className="btn btn-primary">
+            Contactame
+          </a>
         </div>
       </div>
     </section>
